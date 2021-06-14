@@ -275,6 +275,7 @@ void EJERCICIO6()
 {
   int h, m, s, h2, m2, s2;
   char c;
+  cout<<"\t\t*****************FUNCIONES******************"<<endl;
   cout<<"\t\t***SEGUNDOS ENTRE DOS HORAS DESPUES DE LA ULTIMA VEZ MARCADO 12***"<<endl;
   cout << "\nIngrese la hora actual (hora:minuto:segundo) : ";
   cin >> h >> c>> m >> c>> s;
