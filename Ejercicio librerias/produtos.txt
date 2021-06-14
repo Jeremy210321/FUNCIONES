@@ -1,0 +1,12 @@
+** DATOS DEL PROVEEDOR ****
+Codigo		Nombre		Ciudad		Telefono
+12954		Brandom			Lima			09991478350
+
+*** DATOS DEL PRODUCTO ***
+Nombre	Precio	Cantidad	Estado
+CPU		1200					20		Optimo
+Parlante		500					10		Optimo
+UPC		620					6		Normal
+Numero de productos adquiridos: 3
+Cantidad de prodcutos adquiridos: 36
+El valor total: 32720
