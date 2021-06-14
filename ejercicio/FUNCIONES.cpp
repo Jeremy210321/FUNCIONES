@@ -298,3 +298,5 @@ int marca12(int H , int M, int S, int H2, int M2, int S2)
   
   return totalseg;
 }
+
+//Aqui finaliza el código
