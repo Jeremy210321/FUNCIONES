@@ -299,4 +299,8 @@ int marca12(int H , int M, int S, int H2, int M2, int S2)
   return totalseg;
 }
 
+<<<<<<< HEAD
+//Aqui finaliza el código
+=======
 //Finaliza el cÃ³digo
+>>>>>>> 4ec849a4a5d6262c2ac16b7a630709276c65e1ec
