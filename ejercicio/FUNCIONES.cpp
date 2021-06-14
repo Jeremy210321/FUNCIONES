@@ -64,7 +64,7 @@ int main() {
       }
     }
   } while (opcion != 7);
-  cout << "\n\t\t\t\t-------- FIN DE LA PRÁCTICA--------" << endl;
+  cout << "\n\t\t\t\t-------- FIN DE LA PRÃCTICA--------" << endl;
   return 0;
 }
 int menu()
@@ -72,7 +72,7 @@ int menu()
   int op = 0;
   while ((op < 1) || (op > 7))
   {
-	cout << "\n\t\t\t***PRÁCTICA 5 --FUNCIONES-- ***" << endl;
+	cout << "\n\t\t\t***PRÃCTICA 5 --FUNCIONES-- ***" << endl;
     cout << "\n***MENU DE LOS PROBLEMAS ***" << endl;
     cout << "1. EJERCICIO 1" << endl;
     cout << "2. EJERCICIO 2" << endl;
@@ -81,11 +81,11 @@ int menu()
     cout << "5. EJERCICIO 5" << endl;
     cout << "6. EJERCICIO 6" << endl;
     cout << "7. Salir" << endl;
-    cout << "Eliga una opción: ";
+    cout << "Eliga una opciÃ³n: ";
     cin >> op;
     if ((op < 1) || (op > 7))
     {
-      cout << "\nEliga una opción correcta del menú" << endl;
+      cout << "\nEliga una opciÃ³n correcta del menÃº" << endl;
     }
   } 
   return op;
@@ -165,6 +165,10 @@ void exception_hora(int &H, int &M, int &S)
     cin >> H>> c >> M>>c >> S;
   }
 }
+inline bool contiene(const vector<int>& v, const int val)
+{
+    return find(v.begin(), v.end(), val) != v.end();
+}
 void EJERCICIO3()
 {
 	cout<<"\t\t\t--CALCULADORA DE HIPOTENUSA---"<<endl;
@@ -174,7 +178,7 @@ void EJERCICIO3()
 	cout << "Ingrese el segundo cateto: ";
 	cin >> b;
   respuesta = hipotenusa(a, b);
-  cout << "\nEl valor de la hipotenusa del triángulo es: " << respuesta << endl;
+  cout << "\nEl valor de la hipotenusa del triÃ¡ngulo es: " << respuesta << endl;
 }
 double hipotenusa(double Lado1, double Lado2)
 {
@@ -185,7 +189,7 @@ void EJERCICIO4()
 {
   int c, d, u, numerar = 0;
   cout<<"\t\t\t ---NUMEROS TRES CIFRAS---"<<endl;
-  cout << "\nLos números de tres cifras en los que la suma de los cubos de sus dígitos es igual al mismo número son: " << endl;
+  cout << "\nLos nÃºmeros de tres cifras en los que la suma de los cubos de sus dÃ­gitos es igual al mismo nÃºmero son: " << endl;
   for(int tres_cifras = 100; tres_cifras < 1000; tres_cifras++)
   {
     c = tres_cifras / 100;
@@ -203,17 +207,17 @@ void EJERCICIO5()
 {
   int num;
   bool eva;
-  cout<<"\t\t\t---NÚMERO CAPICÚA---"<<endl;
-  cout << "\nIngrese el número a invertir: ";
+  cout<<"\t\t\t---NÃšMERO CAPICÃšA---"<<endl;
+  cout << "\nIngrese el nÃºmero a invertir: ";
   cin >> num;
   while (num < 0)
   {
-    cout << "\nIngrese un número válido (entero positivo): ";
+    cout << "\nIngrese un nÃºmero vÃ¡lido (entero positivo): ";
     cin >> num; 
   }
-  cout << "\n Número ingresado: " << num << " \nNúmero invertido es: " << inverso(num,0) << endl;
+  cout << "\n NÃºmero ingresado: " << num << " \nNÃºmero invertido es: " << inverso(num,0) << endl;
   eva = num == inverso(num, 0);
-  cout << "\n ¿Es un número capicua?: " << capicua(num, inverso(num, 0)) << endl;
+  cout << "\n Â¿Es un nÃºmero capicua?: " << capicua(num, inverso(num, 0)) << endl;
 }
 int inverso(int num1, int numInv)
 {
@@ -248,11 +252,11 @@ void EJERCICIO6()
   cout << "\nIngrese la hora actual (hora:minuto:segundo) : ";
   cin >> h >> c>> m >> c>> s;
   exception_hora_base12(h , m, s);
-  cout << "\nNúmero de segundos transcurridos desde la última vez que el reloj marcó las 12: " << marca12(h, m, s) << endl;
+  cout << "\nNÃºmero de segundos transcurridos desde la Ãºltima vez que el reloj marcÃ³ las 12: " << marca12(h, m, s) << endl;
   cout << "\nIngrese la segunda hora (hora:minuto:segundo) : ";
   cin >> h2 >>c>> m2>>c >> s2;
   exception_hora_base12(h2 , m2, s2);
-  cout << "\nNúmero de segundos transcurridos entre las dos horas ingresadas: " << marca12(h, m, s, h2, m2, s2) << " segundos" << endl;
+  cout << "\nNÃºmero de segundos transcurridos entre las dos horas ingresadas: " << marca12(h, m, s, h2, m2, s2) << " segundos" << endl;
 }
 void exception_hora_base12(int &H , int &M, int &S)
 {
@@ -300,7 +304,7 @@ int marca12(int H , int M, int S, int H2, int M2, int S2)
 }
 
 <<<<<<< HEAD
-//Aqui finaliza el c�digo
+//Aqui finaliza el código
 =======
-//Finaliza el código
+//Finaliza el cÃ³digo
 >>>>>>> 4ec849a4a5d6262c2ac16b7a630709276c65e1ec
