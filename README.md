@@ -1,2 +1,2 @@
 # EJERCICIO1
-Programa en C++
+Programa en C++ de Funciones
