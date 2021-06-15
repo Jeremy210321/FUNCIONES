@@ -95,6 +95,8 @@ int menu()
 }
 
 //Desde aqui en adelante empieza la definicion de cada una de las funciones
+
+//Ejercicio 1 consiste en determinar el factorial de un numero dado
 double EJERCICIO1(int a)
 { 
   double poten, fact, Resultado = 0;
@@ -162,6 +164,8 @@ void reinas(int k, vector<int> col, vector<int> diag45, vector<int> diag135)
                 diag135.pop_back();
             }
     }
+	
+//Ejercicio 2 simula un comparador de fechas y horas
 void EJERCICIO2()
 {
   int h, m, s, h_despues, m_despues, s_despues;
@@ -201,6 +205,8 @@ inline bool contiene(const vector<int>& v, const int val)
 {
     return find(v.begin(), v.end(), val) != v.end();
 }
+
+//Ejercicio 3 hace referencia a una calculadora automatica de la hipotenusa de un triangulo
 void EJERCICIO3()
 {
 	cout<<"\t\t\t--CALCULADORA DE HIPOTENUSA---"<<endl;
@@ -217,6 +223,9 @@ double hipotenusa(double Lado1, double Lado2)
   double resultado = sqrt(pow(Lado1,2)+pow(Lado2,2));
   return resultado;
 }
+	
+//Ejercicio 4 es una comparacion de numeros de 3 cifras denotando si la suma de sus digitos elevado al cubo es similar al mismo 
+//numero
 void EJERCICIO4()
 {
   int c, d, u, numerar = 0;
@@ -234,7 +243,7 @@ void EJERCICIO4()
   }
 }
 
-
+//Ejercicio 5 consiste en invertir un numero ingresado por el usuario.
 void EJERCICIO5()
 {
   int num;
@@ -276,6 +285,7 @@ bool capicua(int original, int invertido)
   return resultado;
 }
 
+//Ejercicio 6 trata de comparar dos horas, incluidos los minutos y segundos
 void EJERCICIO6()
 {
   int h, m, s, h2, m2, s2;
