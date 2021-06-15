@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//Aqui se declara las funciones y los parametros
 int menu();
 double EJERCICIO1(int a);
 long long int factorial(int b);
@@ -20,7 +21,7 @@ void EJERCICIO6();
 void exception_hora_base12(int &H , int &M, int &S);
 int marca12(int H , int M, int S, int H2 = 0, int M2 = 0, int S2 = 0);
 
-
+//Uso de la funcion main para llamar al resto
 int main() {
   int opcion;
   do 
@@ -67,6 +68,8 @@ int main() {
   cout << "\n\t\t\t\t-------- FIN DE LA PRÃCTICA--------" << endl;
   return 0;
 }
+
+//Desarrollo de la funcion menu que devolvera un int
 int menu()
 {
   int op = 0;
@@ -90,6 +93,8 @@ int menu()
   } 
   return op;
 }
+
+//Desde aqui en adelante empieza la definicion de cada una de las funciones
 double EJERCICIO1(int a)
 { 
   double poten, fact, Resultado = 0;
