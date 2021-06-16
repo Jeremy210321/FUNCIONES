@@ -29,6 +29,9 @@ int main() {
     ingresarProveedor();
     ingresarProductos();
     break;
+    case 4:
+      EJERCICIO2();
+     break;
 
   }
   } while(op!=4);
