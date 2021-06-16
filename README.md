@@ -17,3 +17,6 @@ Aquí está mi aporte, he colocado unas cuantas lineas de código para que sea a
 Librerias en C++
 
 Se ha utilizado modularización para seccionar al programa
+
+# Uso de Funciones
+
