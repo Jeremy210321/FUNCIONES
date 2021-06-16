@@ -24,3 +24,5 @@ Añadimos un ejercicio en c++ usando funciones
 Problemas con mi sourcestree
 
 Problema por mis credenciales
+
+tenia vinculado a otra cuenta de github
