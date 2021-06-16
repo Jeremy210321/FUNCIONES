@@ -4,6 +4,7 @@
 #include "E1.h"
 #include "E2.h"
 #include "E3.h"
+#include "EJ2.h"
 
 using namespace std;
 using namespace uno;
